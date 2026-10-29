@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Núcleo RenderTech - Engenharia, Inteligência Artificial, Ciência, Astronomia, Games, Hardware, Cultura Geek e muito mais." />
+  <meta name="keywords" content="Engenharia, IA, Tecnologia, Astronomia, Geek, Games, Hardware, Software, Computação, Programação, Física, Robótica, Séries, Música, Cultura, Direito" />
+  <meta name="author" content="Luan Gabriel" />
+
+  <!-- Favicon oficial -->
+  <link rel="icon" type="image/jpeg" href="Img/LogoTipo Núcleo Render-tech.jpg">
+
+  <!-- Fontes do Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <title>Núcleo RenderTech | Portal Multitemático</title>
+
+  <!-- Ligação relativa correta ao CSS separado -->
+  <link rel="stylesheet" href="Estilo.css/style.css">
+</head>
+
+<body>
+  <!-- ================= CABEÇALHO TECH ================= -->
+  <header class="tech-eng">
+    <div class="container header-container">
+      <a href="./" class="logo-tech" title="Núcleo RenderTech">
+        <span class="logo-mark">&lt;RT/&gt;</span>
+        <div class="logo-title-group">
+          <span class="logo-principal">NÚCLEO</span>
+          <span class="logo-secundario">RENDERTECH</span>
+        </div>
+      </a>
+
+      <!-- Menu Mobile (Checkbox Hack sem JS) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Abrir Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="./" class="nav-link active">Início</a></li>
+          <li><a href="#artigos" class="nav-link">Artigos</a></li>
+          <li><a href="#videos" class="nav-link">Vídeos</a></li>
+          <li><a href="#todos-temas" class="nav-link">Todos os Temas</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-action">
+        <div class="search-box">
+          <input type="text" placeholder="Buscar no Núcleo..." aria-label="Pesquisar">
+          <span class="search-icon">🔍</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= BANNER COM LOGÓTIPO RETÂNGULO MÉDIO ================= -->
+  <section class="portal-hero-banner">
+    <div class="container hero-banner-content">
+      <div class="logo-rect-container">
+        <img src="Img/LogoTipo Núcleo Render-tech.jpg" alt="Logótipo Oficial Núcleo RenderTech" class="logo-rect-img" loading="eager">
+        <div class="logo-rect-glow"></div>
+      </div>
+      <div class="hero-badge">PORTAL MULTITEMÁTICO OFICIAL</div>
+      <h2 class="hero-glitch-title">ENGENHARIA, COMPUTAÇÃO &amp; CULTURA DIGITAL</h2>
+      <p class="hero-subtext">36 ecossistemas de conhecimento integrados numa experiência futurista de alta performance.</p>
+    </div>
+  </section>
+
+  <!-- ================= LAYOUT PRINCIPAL ================= -->
+  <main class="container main-layout">
+    <div class="content-area">
+
+      <!-- NUVEM DE CHIPS (36 TEMAS) -->
+      <section class="topics-section" id="todos-temas">
+        <div class="topics-header">
+          <span class="topics-label">Explorar por Temática (36 Áreas):</span>
+        </div>
+        <div class="topics-scroll">
+          <a href="#ia" class="topic-chip active-chip">⚡ IA</a>
+          <a href="#engenharia" class="topic-chip">⚙️ Engenharia</a>
+          <a href="#astronomia" class="topic-chip">🔭 Astronomia</a>
+          <a href="#tecnologia" class="topic-chip">💻 Tecnologia</a>
+          <a href="#geek" class="topic-chip">👾 Geek</a>
+          <a href="#animes" class="topic-chip">⛩️ Animes</a>
+          <a href="#filmes" class="topic-chip">🎬 Filmes</a>
+          <a href="#series" class="topic-chip">📺 Séries</a>
+          <a href="#jogos-retro" class="topic-chip">🕹️ Jogos Retrô</a>
+          <a href="#hardware" class="topic-chip">🖥️ Hardware</a>
+          <a href="#software" class="topic-chip">💾 Software</a>
+          <a href="#computacao" class="topic-chip">🧮 Computação</a>
+          <a href="#games" class="topic-chip">🎮 Games</a>
+          <a href="#programacao" class="topic-chip">&lt;/&gt; Programação</a>
+          <a href="#politica" class="topic-chip">🏛️ Política</a>
+          <a href="#fisica" class="topic-chip">⚛️ Física</a>
+          <a href="#quimica" class="topic-chip">🧪 Química</a>
+          <a href="#matematica" class="topic-chip">📐 Matemática</a>
+          <a href="#redes-sociais" class="topic-chip">📲 Redes Sociais</a>
+          <a href="#doramas" class="topic-chip">🌸 Doramas</a>
+          <a href="#esporte" class="topic-chip">⚽ Esporte</a>
+          <a href="#veiculos" class="topic-chip">🚗 Veículos</a>
+          <a href="#artes-marciais" class="topic-chip">🥋 Artes Marciais</a>
+          <a href="#ciencia" class="topic-chip">🔬 Ciência</a>
+          <a href="#financeiro" class="topic-chip">📈 Financeiro</a>
+          <a href="#influenciadores" class="topic-chip">🎙️ Influenciadores</a>
+          <a href="#saude" class="topic-chip">🩺 Saúde</a>
+          <a href="#educacao" class="topic-chip">📚 Educação</a>
+          <a href="#idiomas" class="topic-chip">🌐 Idiomas</a>
+          <a href="#turismo" class="topic-chip">✈️ Turismo</a>
+          <a href="#jogos-eletronicos" class="topic-chip">🕹️ Jogos Eletrónicos</a>
+          <a href="#musica" class="topic-chip">🎵 Música</a>
+          <a href="#robotica" class="topic-chip">🤖 Robótica</a>
+          <a href="#arquitetura" class="topic-chip">🏟️ Arquitetura</a>
+          <a href="#cultura" class="topic-chip">🇧🇷 Cultura</a>
+          <a href="#direito" class="topic-chip">⚖️ Direito</a>
+        </div>
+      </section>
+
+      <!-- ARTIGO DE DESTAQUE (HERO - INTELIGÊNCIA ARTIFICIAL) -->
+      <article class="featured-card" id="ia">
+        <div class="featured-media">
+          <img src="https://icmc.usp.br/images/CAMPUS-Especialistas-mundiais-criam-documento-sobre-capacidades-e-riscos-da-Inteligencia-Artificial.jpg"
+               alt="Especialistas criam documento sobre capacidades e riscos da IA"
+               loading="eager">
+          <div class="featured-overlay"></div>
+          <span class="badge badge-ai">Inteligência Artificial</span>
+        </div>
+
+        <div class="featured-body">
+          <div class="poster-meta">
+            <span>🏛️ UNIVERSIDADE DE SÃO PAULO — ICMC</span>
+            <span>📅 22/02/2024</span>
+            <span>✍️ Luan Gabriel</span>
+          </div>
+
+          <h1 class="featured-title">
+            <a href="https://www.icmc.usp.br/noticias/6738-especialistas-mundiais-criam-documento-sobre-capacidades-e-riscos-da-inteligencia-artificial" target="_blank" rel="noopener noreferrer">
+              O que acontece no final do filme? Máquinas e sistemas inteligentes superam a capacidade humana?
+            </a>
+          </h1>
+
+          <p class="featured-excerpt">
+            Essas dúvidas, já abordadas pela ficção científica, estão no centro das discussões globais. O Professor André Ponce de Leon Ferreira de Carvalho (ICMC-USP) integra o comitê consultivo internacional com cientistas de 30 nações convidadas para a Cúpula de Segurança de IA do Reino Unido, formulando relatórios de impacto sobre autonomia sintética e riscos.
+          </p>
+
+          <div class="card-footer-action">
+            <a href="https://www.icmc.usp.br/noticias/6738-especialistas-mundiais-criam-documento-sobre-capacidades-e-riscos-da-inteligencia-artificial" target="_blank" rel="noopener noreferrer" class="cyber-btn">
+              Aceder à Fonte Oficial no ICMC-USP &rarr;
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- GRADE DE PUBLICAÇÕES (36 TEMAS) -->
+      <section class="poster-section" id="artigos">
+        <div class="section-header">
+          <h2 class="section-title">Publicações &amp; Mídias Temáticas</h2>
+          <span class="section-sub">Explorando as 36 áreas do conhecimento técnico, científico e cultural</span>
+        </div>
+
+        <div class="poster-grid">
+
+          <!-- 1. IA -->
+          <article class="post-card video-card" id="videos">
+            <div class="card-video-wrapper">
+              <iframe 
+                src="https://www.youtube-nocookie.com/embed/s6FD7pLtvz0?si=hJnXMfBmb7WPtFr4" 
+                title="História da IA" 
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+              </iframe>
+            </div>
+            <div class="card-body">
+              <span class="badge badge-ai">Inteligência Artificial</span>
+              <h3 class="card-title">
+                <a href="https://www.youtube.com/watch?v=s6FD7pLtvz0" target="_blank" rel="noopener noreferrer">
+                  A História e a Origem por Trás da Inteligência Artificial
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Das redes neuronais teóricas aos modelos modernos de linguagem e visão computacional.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Vídeo • YouTube</span>
+                <a href="https://www.youtube.com/watch?v=s6FD7pLtvz0" target="_blank" rel="noopener noreferrer" class="read-more">Assistir Aula &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. ENGENHARIA -->
+          <article class="post-card" id="engenharia">
+            <div class="card-media">
+              <img src="https://cdn.motor1.com/images/mgl/bgzl3v/s3/tesla-giga-texas-tesla-gigafactory-5-model-y-body-welding-line.webp"
+                   alt="Linha da Tesla Giga Texas" loading="lazy">
+              <span class="badge badge-eng">Engenharia</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://insideevs.uol.com.br/news/680327/tesla-exemplo-montadoras-tradicionais-simplificar/" target="_blank" rel="noopener noreferrer">
+                  Tesla: A Engenharia Modular e Gigacasting na Indústria Automóvel
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Fundições de peça única e baterias estruturais que substituem centenas de pontos de soldadura.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Fonte: InsideEVs</span>
+                <a href="https://insideevs.uol.com.br/news/680327/tesla-exemplo-montadoras-tradicionais-simplificar/" target="_blank" rel="noopener noreferrer" class="read-more">Ler Artigo &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. ASTRONOMIA -->
+          <article class="post-card video-card" id="astronomia">
+            <div class="card-video-wrapper">
+              <iframe 
+                src="https://www.youtube-nocookie.com/embed/8UqNVzY0EVg?si=cspHKYdRClE7R_qM" 
+                title="História do Universo" loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+            </div>
+            <div class="card-body">
+              <span class="badge badge-astro">Astronomia</span>
+              <h3 class="card-title">
+                <a href="https://www.youtube.com/watch?v=8UqNVzY0EVg" target="_blank" rel="noopener noreferrer">
+                  Uma Breve História do Início do Universo e da Matéria
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Da inflação primordial aos primeiros átomos neutros e estrelas primitivas.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Canal: Ciência Todo Dia</span>
+                <a href="https://www.youtube.com/watch?v=8UqNVzY0EVg" target="_blank" rel="noopener noreferrer" class="read-more">Ver no YouTube &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. TECNOLOGIA -->
+          <article class="post-card" id="tecnologia">
+            <div class="card-media">
+              <img src="https://pontapora.ms.gov.br/v2/wp-content/uploads/2026/10/FOTO_01_PROJETO_PISCAR_FALAR-1068x601.jpg"
+                   alt="Projeto Piscar e Falar com IA" loading="lazy">
+              <span class="badge badge-hardware">Tecnologia</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://pontapora.ms.gov.br/v2/alunos-da-escola-juvenal-froes-usam-tecnologia-para-ajudar-paciente-com-esclerose-lateral-amiotrofica/" target="_blank" rel="noopener noreferrer">
+                  Tecnologia e IA Permitem Comunicação Através do Piscar dos Olhos
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                A aplicação "Piscar e Falar" criada para auxiliar pessoas com Esclerose Lateral Amiotrófica.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: Tecnologia Geral</span>
+                <a href="https://pontapora.ms.gov.br/v2/alunos-da-escola-juvenal-froes-usam-tecnologia-para-ajudar-paciente-com-esclerose-lateral-amiotrofica/" target="_blank" rel="noopener noreferrer" class="read-more">Explorar &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5. GEEK -->
+          <article class="post-card" id="geek">
+            <div class="card-media">
+              <img src="https://espacodopovo.com.br/wp-content/uploads/2026/10/penha-geek-capa.jpg" alt="Festival Penha Geek" loading="lazy">
+              <span class="badge badge-geek">Geek</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://espacodopovo.com.br/festival-geek-gratuito-reune-dublador-de-goku-campeonato-de-k-pop-e-cosplay-em-sao-paulo/" target="_blank" rel="noopener noreferrer">
+                  Penha Geek: Cultura Pop, Cosplay e Encontro de Dubladores
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Festival cultural com oficinas, campeonatos de jogos e atrações gratuitas da comunidade geek.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: Universo Geek</span>
+                <a href="https://espacodopovo.com.br/festival-geek-gratuito-reune-dublador-de-goku-campeonato-de-k-pop-e-cosplay-em-sao-paulo/" target="_blank" rel="noopener noreferrer" class="read-more">Ver Mais &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 6. ANIMES -->
+          <article class="post-card" id="animes">
+            <div class="card-media">
+              <img src="https://br.web.img3.acsta.net/r_654_368/img/22/db/22dbc1187b7c3b0e281506f4ea054ce7.jpg" alt="Anime clássico live-action" loading="lazy">
+              <span class="badge badge-geek">Animes</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://www.adorocinema.com/noticias/series/noticia-1000221773/" target="_blank" rel="noopener noreferrer">
+                  Clássicos dos Mangás Ganham Novas Produções Live-Action
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                A expansão de obras clássicas de ficção científica japonesa nas grandes plataformas de streaming.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: Animes &amp; Mangás</span>
+                <a href="https://www.adorocinema.com/noticias/series/noticia-1000221773/" target="_blank" rel="noopener noreferrer" class="read-more">Ver Matéria &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 7. FILMES -->
+          <article class="post-card" id="filmes">
+            <div class="card-media">
+              <img src="https://ingresso-a.akamaihd.net/b2b/production/uploads/articles-content/1fe8d943-5445-4cac-9ada-20ba2dcaf426.jpg" alt="Vingadores: Doutor Destino" loading="lazy">
+              <span class="badge badge-geek">Filmes</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://www.omelete.com.br/filmes/vingadores-doutor-destino-ganha-novo-trailer-com-foco-no-quarteto-fantastico" target="_blank" rel="noopener noreferrer">
+                  Novo trailer mostra o Quarteto Fantástico em confronto com Doutor Destino
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                O vilão da história de Avengers: Doomsday será vivido por Robert Downey Jr., retornando ao MCU numa nova e imponente faceta.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: Cinema</span>
+                <a href="https://www.omelete.com.br/filmes/vingadores-doutor-destino-ganha-novo-trailer-com-foco-no-quarteto-fantastico" target="_blank" rel="noopener noreferrer" class="read-more">Doutor Destino &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 8. SÉRIES -->
+          <article class="post-card" id="series">
+            <div class="card-media">
+              <img src="https://br.web.img2.acsta.net/img/55/07/55070771716e9fcc3afee6ab3577a3e9.jpg" alt="Solo Leveling" loading="lazy">
+              <span class="badge badge-geek">Séries</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://www.adorocinema.com/noticias/series/noticia-1000228901/" target="_blank" rel="noopener noreferrer">
+                  Solo Leveling: Novos Capítulos e Expansão da Franquia
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Enquanto aguardam a nova temporada, os fãs acompanham os desdobramentos da obra em romances gráficos e animações.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: Continuação Solo Leveling</span>
+                <a href="https://www.adorocinema.com/noticias/series/noticia-1000228901/" target="_blank" rel="noopener noreferrer" class="read-more">Conferir Notícias &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 9. JOGOS RETRÔ -->
+          <article class="post-card" id="jogos-retro">
+            <div class="card-media">
+              <img src="https://t2.tudocdn.net/838440?w=646&h=284" alt="Consoles de jogos retrô" loading="lazy">
+              <span class="badge badge-games">Jogos Retrô</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://www.tudocelular.com/novos-produtos/noticias/n265525/super-nintendo-mega-drive-consoles-retro.html" target="_blank" rel="noopener noreferrer">
+                  Super Nintendo e Mega Drive Revivem em Full HD e Bluetooth
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                A Analogue apresentou os modelos Super Nt+ e Mega Sg+, compatíveis com cartuchos originais e saídas de alta definição.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Fonte: tudocelular.com</span>
+                <a href="https://www.tudocelular.com/novos-produtos/noticias/n265525/super-nintendo-mega-drive-consoles-retro.html" target="_blank" rel="noopener noreferrer" class="read-more">Ver Analogue &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 10. HARDWARE -->
+          <article class="post-card" id="hardware">
+            <div class="card-media">
+              <img src="https://tl.ctcdn.com.br/wwJorEAZO1hCpekqTFBIUupRDOg=/1200x675/smart/filters:format(webp):quality(85)/9e59a084-7341-41e4-bda5-60b59a04983e.jpg" alt="Processador Intel Core Ultra" loading="lazy">
+              <span class="badge badge-hardware">Hardware</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://canaltech.com.br/hardware/intel-core-ultra-9-4995hx-para-notebooks-tera-quantidade-monstruosa-de-nucleos/" target="_blank" rel="noopener noreferrer">
+                  Intel Core Ultra: CPUs com Empilhamento 3D e NPUs Dedicadas
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                A nova geração de processadores com arquitetura desagregada e barramentos de altíssima velocidade.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Fonte: Canaltech</span>
+                <a href="https://canaltech.com.br/hardware/intel-core-ultra-9-4995hx-para-notebooks-tera-quantidade-monstruosa-de-nucleos/" target="_blank" rel="noopener noreferrer" class="read-more">Ler no Canaltech &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 11. SOFTWARE -->
+          <article class="post-card video-card" id="software">
+            <div class="card-video-wrapper">
+              <iframe 
+                src="https://www.youtube.com/embed/-soAkLdbNfY?si=bRjB0O-P133uxMGd" 
+                title="Engenharia Reversa" loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+            </div>
+            <div class="card-body">
+              <span class="badge badge-software">Software</span>
+              <h3 class="card-title">
+                <a href="https://www.youtube.com/watch?v=-soAkLdbNfY" target="_blank" rel="noopener noreferrer">
+                  Como Funciona A Engenharia Reversa
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                A análise profunda de binários, rotinas de decompilação e segurança computacional.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Vídeo • YouTube</span>
+                <a href="https://www.youtube.com/watch?v=-soAkLdbNfY" target="_blank" rel="noopener noreferrer" class="read-more">Assistir Aula &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 12. COMPUTAÇÃO -->
+          <article class="post-card" id="computacao">
+            <div class="card-media">
+              <img src="https://db00ytxhy7e1q.cloudfront.net/2024/07/OFICIAL-Dimensao-Wordpress-31.jpg" alt="Receita mundial de computação quântica" loading="lazy">
+              <span class="badge badge-hardware">Computação</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://itforum.com.br/noticias/computacao-quantica-alcancara-us-11-bi-2027/" target="_blank" rel="noopener noreferrer">
+                  Receita mundial de computação quântica alcançará US$ 1,1 bi em 2027, diz Gartner
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                O setor público deve liderar os gastos com computação quântica até 2027, impulsionado pelo interesse global em soberania tecnológica.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: Computação Quântica</span>
+                <a href="https://itforum.com.br/noticias/computacao-quantica-alcancara-us-11-bi-2027/" target="_blank" rel="noopener noreferrer" class="read-more">Saber Mais &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 13. GAMES -->
+          <article class="post-card" id="games">
+            <div class="card-media">
+              <img src="https://img-cdn.hltv.org/gallerypicture/auKhvy5PYEV-0srS9YLE4J.jpg?ixlib=java-2.1.0&w=1200&s=9d826e9be666e922dc22ea2a32f7263f" alt="Aulas de eSports" loading="lazy">
+              <span class="badge badge-games">Games</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://www.dust2.com.br/noticias/79222/flavio-bolsonaro-promete-aulas-de-esports-nas-escolas-publicas" target="_blank" rel="noopener noreferrer">
+                  Flávio Bolsonaro promete aulas de esports nas escolas públicas
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Proposta voltada para o contraturno escolar integrando tecnologia, desenvolvimento de raciocínio e esportes eletrônicos.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: eSports na Escola</span>
+                <a href="https://www.dust2.com.br/noticias/79222/flavio-bolsonaro-promete-aulas-de-esports-nas-escolas-publicas" target="_blank" rel="noopener noreferrer" class="read-more">Ver Artigo &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 14. PROGRAMAÇÃO -->
+          <article class="post-card" id="programacao">
+            <div class="card-media">
+              <img src="https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/eb5e/live/02351720-cd44-11f1-8177-0f8bd59b54c4.jpg.webp" alt="Linguagem de programação PHP" loading="lazy">
+              <span class="badge badge-software">Programação</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://www.bbc.com/portuguese/articles/c620rexwqw4wo" target="_blank" rel="noopener noreferrer">
+                  Sites em vários países são desativados após IA detectar falhas graves de segurança
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Vulnerabilidades críticas identificadas na linguagem PHP motivam alertas globais e suspensões temporárias para aplicação de correções.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Fonte: BBC News</span>
+                <a href="https://www.bbc.com/portuguese/articles/c620rexwqw4wo" target="_blank" rel="noopener noreferrer" class="read-more">Ler na BBC &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 15. POLÍTICA -->
+          <article class="post-card" id="politica">
+            <div class="card-media">
+              <img src="https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/6e6e/live/974b0da0-cf8e-11f1-bef0-7f8eb636c50b.jpg.webp" alt="Debate da Globo 2º turno" loading="lazy">
+              <span class="badge badge-eng">Política</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://www.bbc.com/portuguese/articles/cmx2351xpe2lo" target="_blank" rel="noopener noreferrer">
+                  Debate da Globo: Análise do confronto eleitoral entre os candidatos
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Os embates programáticos, estratégias de campanha e movimentações de intenções de voto no cenário nacional.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: Debate Político</span>
+                <a href="https://www.bbc.com/portuguese/articles/cmx2351xpe2lo" target="_blank" rel="noopener noreferrer" class="read-more">Saber Mais &rarr;</a> 
+              </div>
+            </div>
+          </article>
+
+          <!-- 16. FÍSICA -->
+          <article class="post-card video-card" id="fisica">
+            <div class="card-video-wrapper">
+              <iframe 
+                src="https://www.youtube-nocookie.com/embed/Sj3sCRwMc0Q?si=cdygMhbblH6P_iA8"
+                title="Toda a Física Explicada" loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+            </div>
+            <div class="card-body">
+              <span class="badge badge-astro">Física</span>
+              <h3 class="card-title">
+                <a href="https://www.youtube.com/watch?v=Sj3sCRwMc0Q" target="_blank" rel="noopener noreferrer">
+                  Panorama da Física: Da Mecânica Clássica ao Modelo Padrão
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Síntese didática sobre gravitação, eletromagnetismo e princípios fundamentais do universo observável.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Vídeo • YouTube</span>
+                <a href="https://www.youtube.com/watch?v=Sj3sCRwMc0Q" target="_blank" rel="noopener noreferrer" class="read-more">Assistir Aula &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 17. QUÍMICA -->
+          <article class="post-card" id="quimica">
+            <div class="card-media">
+              <img src="https://imagens.ebc.com.br/yqdNkbcYllwLT-aAbAk9WKX_ChU=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/10/07/2026-10-05t104428z_1_lynxmpem940wb_rtroptp_4_nobel-prize-medicine.jpg?itok=sUFXudHP" alt="Prêmio Nobel de Química" loading="lazy">
+              <span class="badge badge-science">Química</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/nobel-de-quimica-vai-para-descoberta-de-imagem-espelhada-de-moleculas" target="_blank" rel="noopener noreferrer">
+                  Prêmio Nobel de Química: Descoberta de Imagem Espelhada de Moléculas
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Reconhecimento científico a avanços moleculares que expandem a síntese de fármacos e a compreensão estrutural da matéria.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Fonte: Agência Brasil</span>
+                <a href="https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/nobel-de-quimica-vai-para-descoberta-de-imagem-espelhada-de-moleculas" target="_blank" rel="noopener noreferrer" class="read-more">Ver Artigo &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 18. MATEMÁTICA -->
+          <article class="post-card" id="matematica">
+            <div class="card-media">
+              <img src="https://paranaibamais.com.br/wp-content/uploads/2026/10/olimpiada.jpg" alt="Olimpíada de Matemática" loading="lazy">
+              <span class="badge badge-science">Matemática</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://paranaibamais.com.br/educacao/estudante-de-13-anos-de-uberlandia-conquista-ouro-na-olimpiada-mineira-de-matematica-e-se-prepara-para-desafio-nacional/" target="_blank" rel="noopener noreferrer">
+                  Estudante conquista ouro na Olimpíada Mineira de Matemática
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Como dedicação contínua e foco em raciocínio analítico levaram à conquista máxima em desafios de resolução combinatória.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: Matemática Pura &amp; Olímpica</span>
+                <a href="https://paranaibamais.com.br/educacao/estudante-de-13-anos-de-uberlandia-conquista-ouro-na-olimpiada-mineira-de-matematica-e-se-prepara-para-desafio-nacional/" target="_blank" rel="noopener noreferrer" class="read-more">Conferir Notícia &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 19. REDES SOCIAIS -->
+          <article class="post-card" id="redes-sociais">
+            <div class="card-media">
+              <img src="https://www.riosdenoticias.com.br/wp-content/uploads/2026/10/Decisao-de-Zanin-sobre-horario-de-votacao-gera-duvidas-e-criticas-nas-redes-sociais-750x375.jpg" alt="Redes sociais e debate eleitoral" loading="lazy">
+              <span class="badge badge-software">Redes Sociais</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://www.riosdenoticias.com.br/decisao-de-zanin-sobre-prorrogacao-do-horario-de-votacao-gera-duvidas-e-criticas-nas-redes-sociais/" target="_blank" rel="noopener noreferrer">
+                  Prorrogação de horário eleitoral gera repercussão nas redes sociais
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                O fluxo contínuo de publicações e a velocidade dos debates em plataformas digitais durante eventos de escala nacional.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: Redes &amp; Mídias</span>
+                <a href="https://www.riosdenoticias.com.br/decisao-de-zanin-sobre-prorrogacao-do-horario-de-votacao-gera-duvidas-e-criticas-nas-redes-sociais/" target="_blank" rel="noopener noreferrer" class="read-more">Ler Mais &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 20. DORAMAS -->
+          <article class="post-card" id="doramas">
+            <div class="card-media">
+              <img src="https://cdn.observatoriodocinema.com.br/2026/10/Um-Choque-de-Amor-09.10.26-005-1024x576.png" alt="Dramas sul-coreanos" loading="lazy">
+              <span class="badge badge-geek">Doramas</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://www.estadao.com.br/minha-serie/cultura-asiatica/10-doramas-que-chegam-ao-streaming-em-outubro-de-2026-confira-a-lista/" target="_blank" rel="noopener noreferrer">
+                  10 novos k-dramas que chegam ao streaming em outubro de 2026
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Onda Hallyu em expansão: narrativas médicas, espionagem, fantasia e produções coreanas de destaque internacional.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Fonte: Estadão</span>
+                <a href="https://www.estadao.com.br/minha-serie/cultura-asiatica/10-doramas-que-chegam-ao-streaming-em-outubro-de-2026-confira-a-lista/" target="_blank" rel="noopener noreferrer" class="read-more">Ver Lista &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 21. ESPORTE -->
+          <article class="post-card" id="esporte">
+            <div class="card-media">
+              <img src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/estudiantes-elimina-flamengo-libertadores-e1792726944324.jpg?w=1320&h=742&crop=0&quality=90" alt="Partida da Libertadores" loading="lazy">
+              <span class="badge badge-eng">Esporte</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://www.cnnbrasil.com.br/esportes/futebol/flamengo/tapetao-flamengo-tenta-anular-jogo-contra-o-estudiantes-diz-jornalista/" target="_blank" rel="noopener noreferrer">
+                  Recurso na Libertadores: Contestação jurídica e desportiva
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Apresentação de recurso à Conmebol sobre a elegibilidade de jogadores na semifinal continental.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Fonte: CNN Brasil</span>
+                <a href="https://www.cnnbrasil.com.br/esportes/futebol/flamengo/tapetao-flamengo-tenta-anular-jogo-contra-o-estudiantes-diz-jornalista/" target="_blank" rel="noopener noreferrer" class="read-more">Ler Artigo &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 22. VEÍCULOS -->
+          <article class="post-card" id="veiculos">
+            <div class="card-media">
+              <img src="https://mecanicaonline.com.br/wp-content/uploads/2026/10/Stellantis-Fiat-Peugeot-Citroen-Alfa-Romeo-Opel-Paris-2.jpg" alt="Salão Automóvel de Paris" loading="lazy">
+              <span class="badge badge-eng">Veículos</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://mecanicaonline.com.br/2026/10/salao-de-paris-recupera-interesse-e-antecipa-novidades-que-vem-ao-brasil/" target="_blank" rel="noopener noreferrer">
+                  Salão Automóvel: Plataformas Híbridas e Eletrificação
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Propulsões elétricas e mecânica de alta performance apresentadas nos grandes salões internacionais.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Fonte: Mecânica Online</span>
+                <a href="https://mecanicaonline.com.br/2026/10/salao-de-paris-recupera-interesse-e-antecipa-novidades-que-vem-ao-brasil/" target="_blank" rel="noopener noreferrer" class="read-more">Ver no Portal &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 23. ARTES MARCIAIS -->
+          <article class="post-card" id="artes-marciais">
+            <div class="card-media">
+              <img src="https://sbtnews.sbt.com.br/imagens/mulheres_artes_marciais_353058b801.png" alt="Busca por artes marciais cresce entre mulheres por segurança" loading="lazy">
+              <span class="badge badge-eng">Artes Marciais</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://sbtnews.sbt.com.br/noticia/brasil/6-em-cada-10-brasileiras-buscam-artes-marciais-por-seguranca-aponta-estudo" target="_blank" rel="noopener noreferrer">
+                  6 em cada 10 brasileiras buscam artes marciais por segurança, aponta estudo
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Seis em cada dez brasileiras praticam ou querem começar uma arte marcial, não só pelos benefícios à saúde, mas pela busca por mais segurança. Em meio ao avanço da violência, o país enfrenta um cenário alarmante: segundo o Fórum Brasileiro de Segurança Pública, quatro mulheres foram vítimas de feminicídio por dia no ano passado.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: Arte Marcial &amp; Segurança Mulher </span>
+                <a href="https://sbtnews.sbt.com.br/noticia/brasil/6-em-cada-10-brasileiras-buscam-artes-marciais-por-seguranca-aponta-estudo" target="_blank" rel="noopener noreferrer" class="read-more">Descobrir Segurança Arte Marciais Mulheres &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 24. CIÊNCIA -->
+          <article class="post-card" id="ciencia">
+            <div class="card-media">
+              <img src="https://s2-galileu.glbimg.com/p4Fhooxc2cFRsPcPTMiExJGw6xs=/0x0:6048x4024/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_fde5cd494fb04473a83fa5fd57ad4542/internal_photos/bs/2026/y/A/xwh2CHRKG81gYNABA6Aw/giuseppe-cuzzocrea-e5kbdpq7kqw-unsplash.jpg" alt="Maçã Podre" loading="lazy">
+              <span class="badge badge-science">Ciência</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://revistagalileu.globo.com/sociedade/noticia/2026/10/efeito-da-maca-podre-pode-fazer-um-grupo-inteiro-perder-o-controle-aponta-estudo.ghtml" target="_blank" rel="noopener noreferrer">
+                  Efeito da maçã podre pode fazer um grupo inteiro perder o controle, aponta estudo
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                O chamado efeito da “maçã podre” ajuda a explicar como a quebra de regras pode influenciar o comportamento coletivo. Um estudo, publicado na revista científica Proceedings of the Royal Society B, mostrou que observar infrações cometidas por outras pessoas pode estimular transgressões ainda maiores, especialmente quando a quebra de regras são mais graves e vêm de pessoas com as quais os indivíduos compartilham afinidades políticas.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: Maçã Podre &amp; Ciência</span>
+                <a href="https://revistagalileu.globo.com/sociedade/noticia/2026/10/efeito-da-maca-podre-pode-fazer-um-grupo-inteiro-perder-o-controle-aponta-estudo.ghtml" target="_blank" rel="noopener noreferrer" class="read-more">Explorar Sobre Experiência Maçã Podre &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 25. FINANCEIRO -->
+          <article class="post-card" id="financeiro">
+            <div class="card-media">
+              <img src="https://conteudo.imguol.com.br/c/noticias/d8/2026/10/26/lula-e-geraldo-alckmin-vao-a-avenida-paulista-para-comemorar-a-vitoria-do-petista-no-2-turno-sobre-flavio-bolsonaro-1792988733297_v2_900x506.jpg.webp" alt="Negociações na Bolsa foram paralisadas por 30 minutos após a abertura, quando o Ibovespa desabou 10%…" loading="lazy">
+              <span class="badge badge-eng">Financeiro</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/26/por-que-o-mercado-entrou-em-panico-com-a-eleicao-de-lula.ghtm" target="_blank" rel="noopener noreferrer">
+                  Por que o mercado financeiro entrou em pânico com a reeleição de Lula… 
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                O mercado financeiro foi pego de surpresa com a vitória de Lula (PT) no segundo turno das eleições presidenciais, e vive um dia de forte baixa na bolsa de valores. Como o resultado da eleição contrariou a expectativa, houve uma corrida nesta segunda-feira (26) para realocar recursos, com forte pressão vendedora nas ações brasileiras e no real. O ajuste ocorre porque a maioria dos agentes de mercado preferia a agenda econômica de Flavio Bolsonaro à de Lula, considerada mais favorável ao equilíbrio fiscal… 
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: Mercado &amp; Finanças</span>
+                <a href="https://economia.uol.com.br/cotacoes/noticias/redacao/2026/10/26/por-que-o-mercado-entrou-em-panico-com-a-eleicao-de-lula.ghtm" target="_blank" rel="noopener noreferrer" class="read-more">Ver Análise Mercado Finaceiro Após Vitoria do Lula &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 26. INFLUENCIADORES -->
+          <article class="post-card" id="influenciadores">
+            <div class="card-media">
+              <img src="https://assets.portalleodias.com/2024/04/WhatsApp-Image-2026-10-26-at-11.41.09.jpeg" alt="Emily Garcia e Thomaz Costa recorrem a Trump após eleições (Créditos: Instagram/ @thocostaoficial @realdonadtrump @e_milygarcia)" loading="lazy">
+              <span class="badge badge-software">Influenciadores</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://portalleodias.com/redes-sociais/influenciadores-recorrem-a-trump-apos-vitoria-de-lula-e-pedem-intervencao-socorro" target="_blank" rel="noopener noreferrer">
+                 Influenciadores recorrem a Trump após vitória de Lula e pedem intervenção: “Socorro”
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Insatisfeitos com o resultado das eleições brasileiras, alguns famosos passaram a recorrer a Donald Trump, presidente dos Estados Unidos, em busca de apoio para uma possível intervenção no país. Desde a madrugada desta segunda-feira (26/10), a publicação mais recente do líder norte-americano vem sendo alvo de uma enxurrada de comentários de influenciadores, entre eles Emily Garcia e Thomaz Costa.
+No perfil oficial de Trump no Instagram, influenciadores passaram a se mobilizar nos comentários para pedir ajuda ao presidente dos Estados Unidos após a vitória de Luiz Inácio Lula da Silva (PT) sobre Flávio Bolsonaro (PL) no segundo turno das eleições. As mensagens, escritas em inglês e português, incluem pedidos de intervenção e até solicitações para que o líder norte-americano tome medidas.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: Influênciadores Pedem Socorro ao Donald Trump após Vitória do Lula</span>
+                <a href="https://portalleodias.com/redes-sociais/influenciadores-recorrem-a-trump-apos-vitoria-de-lula-e-pedem-intervencao-socorro" target="_blank" rel="noopener noreferrer" class="read-more">Sabia Mais Pedido socorro ao Trump pelo Influênciadores &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 27. SAÚDE -->
+          <article class="post-card" id="saude">
+            <div class="card-media">
+              <img src="https://i.metroimg.com/z-Rqjh-mb27ZVF2rYIo2aOe_X1nzswzqDpu3-2TZcSw/w:1200/q:85/f:webp/plain/https://images.metroimg.com/2026/02/comprimidos-medicamentos.jpg" alt="Aspirina" loading="lazy">
+              <span class="badge badge-science">Saúde</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://www.metropoles.com/saude/aspirina-pode-reduzir-em-70-risco-de-demencia-em-idosos-mas-traz-risco" target="_blank" rel="noopener noreferrer">
+                  Aspirina pode reduzir em 70% risco de demência em idosos, mas traz risco
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                O uso de aspirina em baixas doses foi associado a uma redução de aproximadamente 70% no risco relativo de demência entre idosos com um perfil genético específico.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: Medicamento Aspirina ao Idoso</span>
+                <a href="https://www.metropoles.com/saude/aspirina-pode-reduzir-em-70-risco-de-demencia-em-idosos-mas-traz-risco" target="_blank" rel="noopener noreferrer" class="read-more">Conferir &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 28. EDUCAÇÃO -->
+          <article class="post-card" id="educacao">
+            <div class="card-media">
+              <img src="https://noticias.uem.br/images/2026/2026-10-23_Ranking_stamford-1017.jpg" alt="Listagem é da Universidade de Stanford, que mediu o impacto de citações científicas ao redor do globo em 2025" loading="lazy">
+              <span class="badge badge-science">Educação</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://noticias.uem.br/index.php?option=com_content&view=article&id=31946:doze-cientistas-da-uem-estao-entre-os-2-mais-influentes-do-mundo&catid=986:pgina-central&Itemid=211" target="_blank" rel="noopener noreferrer">
+                  Doze cientistas da UEM estão entre os 2% mais influentes do mundo.
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                12 pesquisadores da Universidade Estadual de Maringá (UEM) estão entre os 2% mais influentes do mundo, de acordo com a edição 2026 do ranking promovido pela Universidade Stanford e a editora Elsevier. O levantamento, divulgado pela plataforma Topscinet, mediu o impacto de citações de pesquisadores em trabalhos científicos publicados ao redor do globo em 2025.
+O quantitativo de cientistas da UEM no ranking posiciona a instituição como a estadual com o maior número de pesquisadores mundialmente mais influentes do Paraná e da região Sul, além de listar a Universidade entre as 23 melhores do país, incluindo, nesta classificação, também as instituições de ensino superior federais.
+O número é ligeiramente maior do que o alcançado no ano passado e relativo a 2024, quando 11 docentes da UEM apareceram entre os cientistas mais influentes do mundo.
+Gisele Mendes, reitora da UEM, festejou mais esta conquista da Universidade, valorizando a contribuição dos membros da comunidade acadêmica para a obtenção da distinção internacional.
+“É muito importante para nós, sobretudo na área do ensino, da pesquisa, da graduação e da pós-graduação. Ficamos muito felizes com esse resultado, não só o ranqueamento, mas também a presença dos nossos pesquisadores no Brasil e no mundo. Isso é formação de excelência, é comprometimento da nossa comunidade e geração de desenvolvimento a partir do ensino superior público do Paraná. Parabéns à nossa comunidade universitária”, celebrou a reitora.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: Cientista Universidade Estadual de Maringá</span>
+                <a href="https://noticias.uem.br/index.php?option=com_content&view=article&id=31946:doze-cientistas-da-uem-estao-entre-os-2-mais-influentes-do-mundo&catid=986:pgina-central&Itemid=211" target="_blank" rel="noopener noreferrer" class="read-more">Ler Mais Sobre Cientista UEM &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 29. IDIOMAS -->
+          <article class="post-card" id="idiomas">
+            <div class="card-media">
+              <img src="https://www.gov.br/mec/pt-br/assuntos/noticias/2026/outubro/coreano-chega-ao-mec-idiomas-e-amplia-oferta-de-aprendizagem/mobile-tela-de-celular-menor.jpeg/@@images/5ca6fcf5-f59c-4718-bf61-caffd64a95d9.jpeg" alt="MEC Idiomas coreano" loading="lazy">
+              <span class="badge badge-science">Idiomas</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://www.gov.br/mec/pt-br/assuntos/noticias/2026/outubro/coreano-chega-ao-mec-idiomas-e-amplia-oferta-de-aprendizagem/mobile-tela-de-celular-menor.jpeg/@@images/5ca6fcf5-f59c-4718-bf61-caffd64a95d9.jpeg" target="_blank" rel="noopener noreferrer">
+                  Coreano chega ao MEC Idiomas e amplia oferta de aprendizagem
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                안녕하세요 (annyeonghaseyo): é assim que se diz “olá” em coreano. Para quem deseja aprender uma nova língua, essa expressão pode ser o começo de uma jornada por outros sons, letras e formas de comunicação. O coreano é a novidade que chega ao MEC Idiomas, com recursos que vão do aprendizado do alfabeto à prática de conversas cotidianas. 
+A nova opção amplia a oferta de idiomas do portal e aplicativo do Ministério da Educação (MEC), que já disponibiliza cursos gratuitos de inglês e espanhol. A experiência de aprendizagem em coreano contará com atividades interativas, exercícios de escrita e pronúncia e aulas com vídeo, para ajudar os estudantes a avançarem gradualmente no idioma.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: Coreano No MEC Idiomas Governo Federal Brasileiro </span>
+                <a href="https://www.gov.br/mec/pt-br/assuntos/noticias/2026/outubro/coreano-chega-ao-mec-idiomas-e-amplia-oferta-de-aprendizagem" target="_blank" rel="noopener noreferrer" class="read-more">Explorar Sobre Novidades MEC Idiomas &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 30. TURISMO -->
+          <article class="post-card" id="turismo">
+            <div class="card-media">
+              <img src="https://media.timeout.com/images/106381171/1920/1440/image.webp" alt="Ranking de Cidade Mundiais" loading="lazy">
+              <span class="badge badge-astro">Turismo</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://www.timeout.com/travel/best-cities-2026" target="_blank" rel="noopener noreferrer">
+                  As 50 melhores cidades do mundo em 2026
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                A lista das Melhores Cidades da Time Out com a Intrepid Travel destaca os destinos que oferecem o melhor dos dois mundos: um catálogo infinitamente empolgante de motivos para visitar, além de tudo de bom que faz um lugar parecer um lar. As 50 cidades que entraram na lista deste ano foram escolhidas graças às opiniões de mais de 24.000 pessoas em 150 cidades ao redor do mundo. Para determinar o ranking final das Melhores Cidades para 2026, combinamos milhares de respostas com os votos de mais de 100 especialistas em cidades da Time Out. Em seguida, consultamos nossa rede de escritores locais para saber exatamente o que torna sua cidade imperdível agora.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: Turismo Cidade Mundiais &amp; Viagens</span>
+                <a href="https://www.timeout.com/travel/best-cities-2026" target="_blank" rel="noopener noreferrer" class="read-more">Ver Destinos Viagem Mundiais  &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 31. JOGOS ELETRÓNICOS -->
+          <article class="post-card" id="jogos-eletronicos">
+            <div class="card-media">
+              <img src="https://cdn.ome.lt/ajl5dSV7nRn5J9JLyjDFsDHt13w=/987x0/smart/filters:format(webp)/uploads/conteudo/fotos/images32.webp" alt="Aniversário de Fraquia do Sonic" loading="lazy">
+              <span class="badge badge-games">Jogos Eletrónicos</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://www.omelete.com.br/games/sonic-ganha-linha-comemorativa-de-35-anos-da-franquia" target="_blank" rel="noopener noreferrer">
+                 Sonic ganha linha comemorativa de 35 anos da franquia
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Em comunicado oficial divulgado nesta terça-feira (27), a SEGA anunciou a chegada de novos itens colecionáveis às celebrações dos 35 anos de Sonic the Hedgehog. Os produtos, que já estão disponíveis na loja oficial da empresa operada pela DPI Merch, apostam no apelo nostálgico da franquia.
+O grande atrativo para os fãs é o Kit Esmeraldas do Caos, que reúne as sete gemas ancestrais da lore do jogo. As pedras vêm acompanhadas de uma caixa de exibição especial para colecionadores e suportes de latão com banho de cor combinando, garantindo um visual de destaque em qualquer estante.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: Sonic The Hedgehog</span>
+                <a href="https://www.omelete.com.br/games/sonic-ganha-linha-comemorativa-de-35-anos-da-franquia" target="_blank" rel="noopener noreferrer" class="read-more">Conferir Aniversário Fraquia do Sonic &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 32. MÚSICA -->
+          <article class="post-card" id="musica">
+            <div class="card-media">
+              <img src="https://www.estadao.com.br/resizer/v2/MRRVUSIZ25BRPM7MEKFBTPYQNU.jpg?quality=80&auth=5b0f2d7edaf5b66845af8a0f539f7b6f8d2a6b05ea113433d07ad2756305c345&width=1200" alt="BTS em São Paulo" loading="lazy">
+              <span class="badge badge-geek">Música</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://www.estadao.com.br/cultura/musica/bts-o-que-faz-da-banda-de-k-pop-um-dos-maiores-fenomenos-da-musica-mundial/" target="_blank" rel="noopener noreferrer">
+                  BTS: o que faz da banda de k-pop um dos maiores fenômenos da música mundial
+                </a>
+              </h3>
+              <p class="card-excerpt">
+               Contrariando a tese de que a carreira de um artista de k-pop é curta — entre outros motivos, porque a renovação precisa ser constante e, geralmente, em grupo —, o BTS, criado em 2013, chega ao Brasil com a turnê Arirang para apresentações nos dias 28, 30 e 31 de outubro no Morumbis, em São Paulo, ainda como um dos maiores fenômenos pop do planeta na atualidade. Essa será a quinta vez da banda no País, a primeira em sete anos. Os ingressos estão esgotados.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Tema: Kpop BTS Brasil &amp; KPOP</span>
+                <a href="https://www.estadao.com.br/cultura/musica/bts-o-que-faz-da-banda-de-k-pop-um-dos-maiores-fenomenos-da-musica-mundial/" target="_blank" rel="noopener noreferrer" class="read-more">Acessar Mais Informações BTS em São Paulo &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 33. ROBÓTICA -->
+          <article class="post-card" id="robotica">
+            <div class="card-media">
+              <img src="https://jornal.usp.br/wp-content/uploads/2026/10/20261027_00_pesquisadores_crob_icmc_usp.jpg" alt="Centro Robótica na USP" loading="lazy">
+              <span class="badge badge-science">Robótica</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="https://jornal.usp.br/universidade/centro-de-robotica-celebra-15-anos-de-pesquisa-inovacao-e-avancos-tecnologicos-na-usp-em-sao-carlos/" target="_blank" rel="noopener noreferrer">
+                  Centro de Robótica celebra 15 anos de pesquisa, inovação e avanços tecnológicos na USP em São Carlos
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Quinze anos de pesquisas, desenvolvimento de tecnologias e formação de profissionais que ajudam a transformar a robótica no Brasil. Essa trajetória foi celebrada pelo Centro de Robótica (CRob) da USP, em São Carlos, durante um evento comemorativo que reuniu pesquisadores e integrantes da comunidade acadêmica para revisitar conquistas, apresentar projetos e discutir os próximos passos da instituição no último dia 14 de outubro, no Instituto de Ciências Matemáticas e de Computação (ICMC).
+Criado em 2011, a partir de uma iniciativa conjunta do ICMC e da Escola de Engenharia de São Carlos (EESC), o CRob se consolidou como uma das principais referências nacionais em pesquisa e desenvolvimento na área. Atualmente, o Centro reúne pesquisadores de diferentes laboratórios e mantém parcerias com universidades, instituições de pesquisa e empresas do Brasil e do exterior.
+Durante a comemoração, representantes dos laboratórios vinculados ao centro apresentaram parte das pesquisas e tecnologias desenvolvidas ao longo dos últimos anos. As exposições foram conduzidas por integrantes do comitê gestor e permitiram ao público conhecer a diversidade de áreas de atuação do CRob, que abrangem desde a robótica industrial até sistemas autônomos e aplicações em diferentes setores da sociedade.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Fonte: Jornal da Universidade de São Paulo USP</span>
+                <a href="https://jornal.usp.br/universidade/centro-de-robotica-celebra-15-anos-de-pesquisa-inovacao-e-avancos-tecnologicos-na-usp-em-sao-carlos/" target="_blank" rel="noopener noreferrer" class="read-more">Ver Mais sobre Centro robótica na USP &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 34. ARQUITETURA -->
+          <article class="post-card video-card" id="arquitetura">
+            <div class="card-video-wrapper">
+              <iframe 
+                src="https://www.youtube-nocookie.com/embed/bvmhRw3vNNc?si=AwLjcTVHT2deRmMA" 
+                title="Obra Ponte Salvador-Itaparica" loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+            </div>
+            <div class="card-body">
+              <span class="badge badge-eng">Arquitetura</span>
+              <h3 class="card-title">
+                <a href="https://www.youtube.com/watch?v=bvmhRw3vNNc" target="_blank" rel="noopener noreferrer">
+                  Ponte Salvador-Itaparica: Soluções de Engenharia e Arquitetura
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Perfuração de estacas em lâmina d'água profunda e as soluções técnicas em infraestrutura de grande porte.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Fonte: TV Aratu / YouTube</span>
+                <a href="https://www.youtube.com/watch?v=bvmhRw3vNNc" target="_blank" rel="noopener noreferrer" class="read-more">Ver Canal &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 35. CULTURA -->
+          <article class="post-card video-card" id="cultura">
+            <div class="card-video-wrapper">
+              <iframe 
+                src="https://www.youtube-nocookie.com/embed/dDA1kketoLc?si=GTJYVgVnMjWETm6t"
+                title="Cultura nordestina é uma das mais marcantes do Brasil" loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+            </div>
+            <div class="card-body">
+              <span class="badge badge-geek">Cultura</span>
+              <h3 class="card-title">
+                <a href="https://www.youtube.com/watch?v=dDA1kketoLc" target="_blank" rel="noopener noreferrer">
+                  Cultura Nordestina: Tradição, Arte, Literatura e Identidade Brasileira
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                A riqueza de manifestações artísticas, históricas, musicais e gastronómicas que formam uma das culturas mais marcantes do país.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Vídeo • YouTube</span>
+                <a href="https://www.youtube.com/watch?v=dDA1kketoLc" target="_blank" rel="noopener noreferrer" class="read-more">Assistir Aula &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 36. DIREITO -->
+          <article class="post-card video-card" id="direito">
+            <div class="card-video-wrapper">
+              <iframe 
+                src="https://www.youtube-nocookie.com/embed/KSbhMsYIVLc?si=KU3NVVKzWojOBMcA"
+                title="Teoria Geral do Direito - Conceito, Origem e Funções do Direito" loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+            </div>
+            <div class="card-body">
+              <span class="badge badge-eng">Direito</span>
+              <h3 class="card-title">
+                <a href="https://www.youtube.com/watch?v=KSbhMsYIVLc" target="_blank" rel="noopener noreferrer">
+                  Teoria Geral do Direito: Origem, Jusnaturalismo, Positivismo e Funções Sociais
+                </a>
+              </h3>
+              <p class="card-excerpt">
+                Conceito de norma jurídica, teoria pura de Kelsen e a importância do ordenamento na organização democrática.
+              </p>
+              <div class="card-footer">
+                <span class="post-date">Vídeo • YouTube</span>
+                <a href="https://www.youtube.com/watch?v=KSbhMsYIVLc" target="_blank" rel="noopener noreferrer" class="read-more">Assistir Aula &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ================= BARRA LATERAL (36 CATEGORIAS) ================= -->
+    <aside class="sidebar">
+
+      <!-- Widget do Autor -->
+      <div class="widget author-widget">
+        <div class="author-banner"></div>
+        <div class="author-avatar-wrapper">
+          <div class="logo-rect-mini">
+            <img src="Img/IMG_20260331_101253213_HDR_AE.jpg" alt="Foto de Luan Gabriel" class="author-avatar-rect">
+          </div>
+        </div>
+        <h4 class="author-name">Luan Gabriel</h4>
+        <span class="author-role">Engenharia de Computação &amp; Dev</span>
+        <p class="author-bio">Criador do ecossistema independente Núcleo RenderTech, explorando a convergência entre hardware, sistemas e exatas.</p>
+        <div class="author-meta-badges">
+          <span class="status-indicator"><span class="dot"></span> Online</span>
+          <span class="status-indicator">v2.0 • 2026</span>
+        </div>
+      </div>
+
+      <!-- Widget de Categorias -->
+      <div class="widget">
+        <h3 class="widget-title">Índice Geral de Categorias</h3>
+        <p class="widget-desc">Acesso rápido a todos os 36 pilares do portal:</p>
+        
+        <div class="category-block">
+          <h4 class="category-group-title">Ciências &amp; Exatas</h4>
+          <ul class="cat-list">
+            <li><a href="#ia"><span>Inteligência Artificial</span><span class="cat-count">24</span></a></li>
+            <li><a href="#engenharia"><span>Engenharia</span><span class="cat-count">19</span></a></li>
+            <li><a href="#astronomia"><span>Astronomia</span><span class="cat-count">11</span></a></li>
+            <li><a href="#fisica"><span>Física</span><span class="cat-count">14</span></a></li>
+            <li><a href="#quimica"><span>Química</span><span class="cat-count">07</span></a></li>
+            <li><a href="#matematica"><span>Matemática</span><span class="cat-count">13</span></a></li>
+            <li><a href="#ciencia"><span>Ciência Geral</span><span class="cat-count">16</span></a></li>
+          </ul>
+        </div>
+
+        <div class="category-block">
+          <h4 class="category-group-title">Computação, TI &amp; Robótica</h4>
+          <ul class="cat-list">
+            <li><a href="#tecnologia"><span>Tecnologia Geral</span><span class="cat-count">28</span></a></li>
+            <li><a href="#hardware"><span>Hardware</span><span class="cat-count">15</span></a></li>
+            <li><a href="#software"><span>Software</span><span class="cat-count">17</span></a></li>
+            <li><a href="#computacao"><span>Computação</span><span class="cat-count">18</span></a></li>
+            <li><a href="#programacao"><span>Programação</span><span class="cat-count">22</span></a></li>
+            <li><a href="#robotica"><span>Robótica</span><span class="cat-count">09</span></a></li>
+          </ul>
+        </div>
+
+        <div class="category-block">
+          <h4 class="category-group-title">Games &amp; Cultura Geek</h4>
+          <ul class="cat-list">
+            <li><a href="#games"><span>Games</span><span class="cat-count">21</span></a></li>
+            <li><a href="#jogos-eletronicos"><span>Jogos Eletrónicos</span><span class="cat-count">15</span></a></li>
+            <li><a href="#jogos-retro"><span>Jogos Retrô</span><span class="cat-count">08</span></a></li>
+            <li><a href="#geek"><span>Geek</span><span class="cat-count">12</span></a></li>
+            <li><a href="#animes"><span>Animes</span><span class="cat-count">14</span></a></li>
+            <li><a href="#filmes"><span>Filmes</span><span class="cat-count">10</span></a></li>
+            <li><a href="#series"><span>Séries</span><span class="cat-count">09</span></a></li>
+            <li><a href="#doramas"><span>Doramas</span><span class="cat-count">06</span></a></li>
+            <li><a href="#musica"><span>Música</span><span class="cat-count">11</span></a></li>
+          </ul>
+        </div>
+
+        <div class="category-block">
+          <h4 class="category-group-title">Sociedade, Humanas &amp; Aplicações</h4>
+          <ul class="cat-list">
+            <li><a href="#veiculos"><span>Veículos</span><span class="cat-count">08</span></a></li>
+            <li><a href="#arquitetura"><span>Arquitetura</span><span class="cat-count">05</span></a></li>
+            <li><a href="#politica"><span>Política</span><span class="cat-count">07</span></a></li>
+            <li><a href="#financeiro"><span>Financeiro</span><span class="cat-count">09</span></a></li>
+            <li><a href="#saude"><span>Saúde</span><span class="cat-count">08</span></a></li>
+            <li><a href="#esporte"><span>Esporte</span><span class="cat-count">06</span></a></li>
+            <li><a href="#artes-marciais"><span>Artes Marciais</span><span class="cat-count">05</span></a></li>
+            <li><a href="#educacao"><span>Educação</span><span class="cat-count">12</span></a></li>
+            <li><a href="#idiomas"><span>Idiomas</span><span class="cat-count">07</span></a></li>
+            <li><a href="#turismo"><span>Turismo</span><span class="cat-count">05</span></a></li>
+            <li><a href="#redes-sociais"><span>Redes Sociais</span><span class="cat-count">10</span></a></li>
+            <li><a href="#influenciadores"><span>Influenciadores</span><span class="cat-count">06</span></a></li>
+            <li><a href="#cultura"><span>Cultura</span><span class="cat-count">35</span></a></li>
+            <li><a href="#direito"><span>Direito</span><span class="cat-count">36</span></a></li>
+          </ul>
+        </div>
+      </div>
+
+    </aside>
+  </main>
+
+  <!-- ================= RODAPÉ ================= -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <div class="logo-title-group">
+          <span class="logo-principal">NÚCLEO</span>
+          <span class="logo-secundario">RENDERTECH</span>
+        </div>
+        <p class="footer-sub">Portal independente cobrindo ciência, tecnologia, exatas, games e cultura pop.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#ia">IA</a>
+        <a href="#engenharia">Engenharia</a>
+        <a href="#astronomia">Astronomia</a>
+        <a href="#tecnologia">Tecnologia</a>
+        <a href="#games">Games</a>
+        <a href="#cultura">Cultura</a>
+        <a href="#direito">Direito</a>
+        <a href="#todos-temas">Ver Todos</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Núcleo RenderTech — Criado por <strong>Luan Gabriel</strong>. HTML5 Semântico &amp; CSS3 Puro.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
